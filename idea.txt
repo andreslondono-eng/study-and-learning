@@ -15,8 +15,8 @@ bucles de organización
 
 practicar el crear funciones y clases
 
-LISTAS = colección ordenada y mutable de datos      [indexion]
+LISTAS = colección ordenada y mutable de datos                                              [indexion]
 TUPLAS = no se pueden modificarse una vez creadas, tambien son mas veloces que las listas   [indexion]
-SETS = no puede tener datos repetidos [nombre]
-
+SETS = no puede tener datos repetidos                                                       [nombre]
+DICCIONARIO = Estructura de datos que permite almacenar información en pares de clave-valor [clave][valor]
 
