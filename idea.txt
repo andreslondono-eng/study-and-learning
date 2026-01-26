@@ -1,0 +1,22 @@
+sacar todas las funciones que vea que he utilizado e investigar y aprender las mas útiles
+
+hacer ejercicios de cada tema estudiado
+
+
+
+
+cual seria la definición de modulo un resumen
+
+hacer pruebas imprimiendo strings y numero, tambien combinandolos
+
+Repasar como se crean las lista, tuples etc y la diferencia de  su sintaxis
+
+bucles de organización
+
+practicar el crear funciones y clases
+
+LISTAS = colección ordenada y mutable de datos      [indexion]
+TUPLAS = no se pueden modificarse una vez creadas, tambien son mas veloces que las listas   [indexion]
+SETS = no puede tener datos repetidos [nombre]
+
+
