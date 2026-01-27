@@ -8,10 +8,10 @@ print(len(my_other_string))
 
 print(my_string + " " + my_other_string)
 
-My_new_string = "este es un sting \n con salto de linea" #\n = caracter especial = salto de linea
+My_new_string = "este es un string \n con salto de linea" #\n = caracter especial = salto de linea
 print(My_new_string)
 
-My_new_string = "\teste es un sting con tabulación de linea"
+My_new_string = "\teste es un string con tabulación de linea"
 print(My_new_string)
 
 # Formateo
