@@ -24,20 +24,67 @@ def is_anagram(word_one:str , word_two):
 # return word_one[::-1]   #[:] (slicing) = La sintaxis general es: word_one[inicio:fin:paso] -> paso = -1 → recorre la cadena hacia atrás
 
 
-# fivonacci = 
+# fibonacci = primeros 50 primeros numeros
+def fibonacci_1():
+    
+    prev = 0
+    next = 1
+    
+    for _ in range(1, 51):
+        print("Puesto: ", _)
+        print(prev)
+        
+        fib = next + prev
+        prev = next
+        next = fib 
 
 
+#Ejemplo 2 fivonacci:
+def fibonacci_2(n):
+    
+    a, b = 0, 1
+    
+    for _ in range(n):
+        a, b = b, a + b
+    return a
+ 
+ 
+# fibonacci_1()
+# print(fibonacci_2(2))
 
+# Numero primo = comprueba si un numero es primo, imprimir tambien lo numeros entre 1 - 100 
 
+def is_prime():
+    
+    for number in range(1, 101):
+        
+        if number >= 2:
+            
+            is_divisible = False
+            
+            for _ in range(2, number):
+                if number % _ == 0:
+                    is_divisible = True
+                    break
+                    
+            if not is_divisible:
+                print(number)
 
+is_prime()
 
+# Invertir el orden de una cadena
 
-
-
-
-
-
-
+def reverse(text):
+    reversed_text = ""
+    for _ in range(0, len(text)):
+        reversed_text = text[::-1]
+    
+    
+    return reversed_text
+    
+    
+    
+print(reverse("Hola mundo"))
 
 
 
