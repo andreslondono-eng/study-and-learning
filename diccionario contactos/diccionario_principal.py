@@ -1,3 +1,5 @@
+### Reformulación del código para mejorarlo ###
+
 contactos = {}
 
 from flujo import pausa, menu

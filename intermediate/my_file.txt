@@ -1,0 +1,6 @@
+Mi nombre es Andres
+Mi apellido es Lopez
+35 Años
+y mi lenguaje preferido es Python
+Aunque tambien me gusta Kotlin
+y Swift
