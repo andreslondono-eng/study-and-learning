@@ -6,7 +6,7 @@ import re   # importamos el modulo de regular expressions
 
 ### Match = 
 
-my_string = "Esta es la lección número 7: Expresiones Regulares"
+my_string = "Esta es la lección número 7: Lección Expresiones Regulares"
 my_other_string = "Esta no es la lección número 6: Manejo de ficheros"
 
 #re.match = Intenta encontrar un patron, retornando si lo ha encontrado, en caso contrario retorna "None" 
@@ -37,7 +37,7 @@ if match != None:
 
 
 
-### search = 
+### search = busca la primera coincidencia de un patrón de expresión regular en una cadena de texto, A diferencia de re.match(), re.search() escanea todo el texto
 
 search = re.search("lección", my_string, re.I)  #En vez de buscar desde el princio como el "match" busca en todo el contenido
 print(search)
@@ -45,37 +45,60 @@ start, end = search.span()
 print(my_string[start:end])
 
 
+### findall = Encontra todas las coincidencias no superpuestas de un patrón de expresión regular en una cadena de texto y las devuelve como una lista
+
+findall = re.findall("lección", my_string, re.I)
+print(findall)
 
 
+### split = permite dividir una cadena de texto según un patrón de expresión regular (regex)(o sea crear una lista a partir de un divisor dado)
+
+print(re.split(":",my_string))
 
 
+### sub = se utiliza para reemplazar partes de una cadena de texto que coinciden con un patrón definido mediante expresiones regulares
 
+print(re.sub("[Ll]ección", "LECCIÓN", my_string))
+print(re.sub("Expresiones Regulares", "RegEx", my_string))
 
+#Creando nuestro propio patron de espresiones regulares:
+#patterns (patrones):
 
+pattern = r"[Ll]ección"
+print(re.findall(pattern, my_string))
 
+pattern = r"[Ll]ección|Expresiones"
+print(re.findall(pattern, my_string))
 
+pattern = r"[0-9]"
+print(re.search(pattern, my_string))
 
+pattern = r"\d"     #Solo los digitos(numericos)
+print(re.findall(pattern, my_string))
 
+pattern = r"\D"     #Lo contrario a \d
+print(re.findall(pattern, my_string))
 
+pattern = r"[l]."   #. = es cualquier digito (numerico o texto)
+print(re.findall(pattern, my_string))
 
+#verificación de email:
 
+email = "andres123@gmail.com.co"
+pattern = r"^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$"
+print(re.match(pattern, email))
+print(re.search(pattern, email))
+print(re.findall(pattern, email))
 
-
-
-
-
-
-
-
-
-
-
-
-
+email = "andres123@gmail.8"     #Error: no cumple la condición
+print(re.findall(pattern, email))
 
 
 
 """
+
+paguina para aprender y validar expresiones regulares: https://regex101.com
+
 Las expresiones regulares permiten responder preguntas como:
 
 ¿Este string es un email válido?

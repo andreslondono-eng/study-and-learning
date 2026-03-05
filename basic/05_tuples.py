@@ -20,7 +20,7 @@ print(my_tuples.index("Andres"))
 # my_tuples[1] = 1.80 = Error, no se puede cambiar una tupla ya creada
 
 my_sum_tuple = my_tuples + my_other_tuple
-print(my_sum_tuple)
+print(my_sum_tuple)     # Al parecer las tuplas se pueden sumar
 
 print(my_sum_tuple[3:6])
 

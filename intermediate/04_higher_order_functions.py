@@ -48,7 +48,7 @@ def sum_ten(original_value):
         return value + 10 + original_value
     return add
 
-add_closure = sum_ten(1)
+add_closure = sum_ten(1)    #Es como si add_closure se convirtiera en la función que esta dentro de "def sum_ten".
 print(add_closure(5)) 
 print(sum_ten(5)(1))    #Tambien podemos llamar la función y ejecutarlo como si fuera una lambda.
 
