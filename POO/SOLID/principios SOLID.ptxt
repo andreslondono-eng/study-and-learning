@@ -1,0 +1,27 @@
+"""los principios SOLID son el estándar de oro para escribir código limpio, mantenible y escalable.
+Son cinco reglas de diseño orientado a objetos 
+
+1. SRP: Single Responsibility Principle (Responsabilidad Única) = "Una clase debe tener una sola razón para cambiar"
+O sea cada clase deve tener una unica responsabilidad o tarea, si tiene mas de las funcionalidades que deberia tener se separan en 2 o mas clases
+para que cada clase se encargue de una cosa
+
+
+2. O: Open/Closed Principle (Abierto/Cerrado) = "Las entidades deben estar abiertas para su extensión, pero cerradas para su modificación."
+
+3. L: Liskov Substitution Principle (Sustitución de Liskov)
+"Las subclases deben ser sustituibles por sus clases base."
+
+4. I: Interface Segregation Principle (Segregación de Interfaces)
+"Es mejor tener muchas interfaces específicas que una sola general."
+
+5. D: Dependency Inversion Principle (Inversión de Dependencias)
+"Depende de abstracciones, no de clases concretas."
+
+
+
+Estudiar y entender la diferencia entre los 5 principios SOLID (hay algunos que)
+
+
+# IMPORTANTE HACER CUALQUIER TIPO DE PROYECTO PARA APLICAR LOS PRINCIPIOS SOLID APRENDIDOS #
+
+"""  

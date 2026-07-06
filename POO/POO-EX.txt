@@ -1,0 +1,64 @@
+La POO es un paradigma que organiza el código en unidades llamadas objetos, los cuales combinan datos y funcionalidad:
+
+Imagina que queremos programar un juego de carreras, sin POO tendriamos variables sueltas con el color, velocidad, autos, etc,
+pero con POO podemos crear una clases/"molde" llamado Auto, Este molde tiene caracteristicas (color, modelo) y acciones (frenar acelerar),
+con esto simplemente creamos tantos autos comonecesitemos basados en ese molde. 
+
+🔹Conceptos fundamentales de POO:
+
+A. La clase (El Molde) = No es el objeto, es el diseño o plano, es la definición de como será.
+
+B. El Objeto (La Instancia) =  Es lo que construimos usando la clase, es el elemento real que vive en la memoria del pc. Ejemplo: La casa fisica donde vive alguien.
+
+C. Atrinutos (Variales) = Son las caracteristicas del objeto: color, puertas, modelo, etc.
+
+D. Métodos (Funciones) = Son las acciones que el objeto puede realizar: encender(), tocar bocina, etc.
+
+🔹Sintaxis en python:
+
+class Perro:
+    # El constructor (inicializa al perro)
+    def __init__(self, nombre, raza):
+        self.nombre = nombre  # Atributo
+        self.raza = raza      # Atributo
+
+    # Un método (acción)
+    def ladrar(self):
+        return f"{self.nombre} dice: ¡Guau!"
+
+# Crear un objeto (instanciar)
+mi_perro = Perro("Rex", "Pastor Alemán")
+
+print(mi_perro.ladrar())
+
+🔹Los 4 Pilares:|
+
+1. Encapsulamiento: Esconder los detalles internos del objeto para que nadie los rompa por accidentew
+2. Abstracción: Mostrar solo lo necesario. No necesitas saber cómo funciona el motor para manejar el coche
+3. Herencia: Crear clases nuevas basadas en clases existentes (ej. una clase Camion que hereda de auto)
+4. Polimorfismo: La capacidad de que diferentes objetos respondan al mismo comando de formas distintas
+
+
+🔹aclaración:
+El __init__ es el constructor y su proposito es configurar(o setear) los atributos(variables) iniciales
+(dicho de otra forma es donde se definen los atributos (variables) de una clase)
+
+En las funcoines los argumentos y los parametros no son lo mismo:
+párametro = Es la variable que pones en la definición de la función. Es el "hueco" que esperas llenar
+Argumento = Es el valor real que le pasas a la función cuando la llamas
+
+En POO, los métodos siempre (o casi siempre) llevan un primer parámetro llamado self.
+
+self es una etiqueta que dice: "ESTE objeto" = cuando defines self.color = "Rojo", estás diciendo: "El color de este coche específico es rojo".
+
+
+🔹Estudiar: 
+El parámetro self: En Python, self es la forma en que el objeto se refiere a sí mismo.
+Las ventajas/Desventajas de POO, para que se suele utilizar, etc
+
+Que son las dataclasses:
+las dataclasses son una caracteristica que permite definir clases diseñadas principalmente para almacenar datos, reduciendo drásticamente la necesidad 
+de escribir código repetitivo (boilerplate). se aplicar con el decorador @dataclass
+O sea nos ayudaria a crear clases de manera mas sencilla, sin tener que escribir tanto codigo para el constructor.
+
+

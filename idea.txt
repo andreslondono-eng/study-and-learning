@@ -1,9 +1,16 @@
+otra idea podria ser crear un proyecto parecido al diccionario pero de fusiones de personajes utilizando los métodos especiales y la sobrecarga de operadores (obiamente con POO y refactorización)
+Tambien podria usar este mini proyecto para practicar el funcionamiento de interfaces graficas
+
+1 - hacer algun proyecto con "hash" (y creo que algoritmos) (idea que no se si funciona: pasarle varias palabras al programa, esta al azar elige una y la "codifica/oculta", luego "descodificarla" para ver cual es la palabra elegida)
+2 - ejercicio con la API de Gemini y Google ai estudió: Analizador de Código y Principios SOLID (con Interfaz Gráfica)
+3 - tipico  RPG programados en Python usando POO. Sin embargo, la narrativa, la descripción de las habitaciones y las consecuencias de las acciones las genera la API de Gemini en tiempo real.
+
+
+
+
 sacar todas las funciones que vea que he utilizado e investigar y aprender las mas útiles
 
 hacer ejercicios de cada tema estudiado
-
-
-
 
 cual seria la definición de modulo un resumen
 
@@ -20,3 +27,26 @@ TUPLAS = no se pueden modificarse una vez creadas, tambien son mas veloces que l
 SETS = no puede tener datos repetidos, lista desordenada, mutable de datos                                                     [nombre]
 DICCIONARIO = Estructura de datos que permite almacenar información en pares de clave-valor [clave][valor]
 
+Estudiar la diferencia de los temas que he visto en: lenguajes dinamicos y lenguajes estáticos(Fuerte y debil)
+
+tambien la diferencia entre lenguajes dinamicos y estáticos.
+
+la herencia es "reutilizar código" y el polimorfismo es "usar un mismo nombre para distintas cosas", el encapsulamiento es "proteger el estado interno de tu objeto"
+
+
+## diferencia entre componentes de código ##
+Módulos: Son la unidad más pequeña de organización, correspondiendo técnicamente a un único archivo de código fuente (como archivos .py) que contiene funciones, variables o clases reutilizables. 
+Paquetes: Son colecciones de módulos agrupados en un directorio o carpeta para organizar el código jerárquicamente (suelen contener un archivo especial de inicialización (como __init__.py)).
+Bibliotecas: Son términos más generales que suelen referirse a una colección de módulos o paquetes diseñados para proporcionar funcionalidad reutilizable y predefinida (evita reescribir código estándar o complejo). 
+Frameworks: A diferencia de las bibliotecas, que solo ofrecen herramientas específicas, los frameworks son estructuras completas con reglas y arquitectura predefinidas que dictan cómo se debe construir la aplicación
+
+
+deberia aprender a usar los modulos:
+datetime para trabajar con fechas y horas
+math para realizar operaciones matematicas avanzadas
+random para generar numeros aleatorios
+os para interactuar con el sistema operativo
+sys para acceder a variables y funciones del sistema
+re para trabajar con expresiones regulares
+json para trabajar con datos en formato JSON
+csv para trabajar con archivos CSV

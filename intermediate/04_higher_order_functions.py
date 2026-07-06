@@ -24,7 +24,7 @@ print(sum_two_values_and_add_values(5,2, sum_one))
 print(sum_two_values_and_add_values(5,2, sum_five))
 
 
-# Otro ejemplo de uso donde pasamos una función por medio de los parametros de otra función
+# Otro ejemplo de uso donde pasamos una función por medio de los párametros de otra función
 
 def operar(a, b, operador):
     return operador(a,b)
@@ -41,7 +41,7 @@ def multiplicar(x, y):
 
 
 # CLOSURES = Es una función que: se define dentro de otra función; Usa variables de la función externa, recuerda esas variables incluso despues de que la función externa termino su ejecución.
-# Definición tecnica = Un closure es una función que encapsula (cierra sobre) su entorno léxico, se puede simploificar como una función que devuelve una función.
+# Definición tecnica = Un closure es una función que encapsula (cierra sobre) su entorno léxico, se puede simplificar como una función que devuelve una función.
 
 def sum_ten(original_value):
     def add(value):

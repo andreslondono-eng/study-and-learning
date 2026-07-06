@@ -1,4 +1,4 @@
-#REGULAR EXPRESSIONS (Expreciones regulares) = enguaje formal para describir patrones en texto
+#REGULAR EXPRESSIONS (Expreciones regulares) = lenguaje formal para describir patrones en texto
 #Existe en la mayoría de lenguajes (Java, JavaScript, C#, PHP, etc.) porque resuelve un problema muy común en programación: buscar, validar, extraer o reemplazar texto según reglas específicas
 #Para que se entienda mejor es como un filtro en el que especificamos o filtramos parametros, por ejemplo: [0-9] {9-9} = [0 a 9(solo numeros)], {rango minimo(9)-rango maximo(9)}
 
